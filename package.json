@@ -1,0 +1,22 @@
+{
+  "name": "tasma-new-main",
+  "version": "1.0.0",
+  "description": "Tasmafive Solutions - Razorpay Payment Gateway Integration",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "razorpay": "^2.9.8",
+    "mongoose": "^8.12.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "crypto": "^1.0.1"
+  },
+  "keywords": ["razorpay", "payment", "nodejs", "express"],
+  "author": "TasmaFive Solutions",
+  "license": "MIT"
+}
